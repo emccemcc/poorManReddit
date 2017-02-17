@@ -16,14 +16,14 @@ $.get(url).done(function(responseBody){
         var realTime = new Date(d*1000);
   var p =post.data.thumbnail;
   //why is this one an issue?
-  //var i =post.data.preview.images.resolutions.url;
+  //var imgs =post.data.preview.images.source.url;
   //from prior assignment
   var $header = $('<h3>').text(t);
   var $paragraph = $('<p>').addClass("details");
   var $author = $('<span>').addClass("author").text("Author: "+a);
   var $date = $('<span>').addClass("date").text("UTC Time Created: "+realTime);
   var $thumbnail = $('<div>').addClass("picture").html("<img src="+p+">"+"</img>");
-  //var $image = $('<div>').addClass("fullPicture").html("<img src="+i+">"+"</img>");
+  //var $image = $('<div>').addClass("fullPicture").html("<img src="+imgs+">"+"</img>");
 
   //variable to post
 
