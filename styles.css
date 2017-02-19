@@ -1,0 +1,64 @@
+.header {
+  background-image: url(bkgd.jpg);
+	/*padding: 2em;*/
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  /*opacity: .75;*/
+	/*max-width: 75em;*/
+}
+
+p.title {
+  color: rgba(10, 103, 6, 0.5);
+  text-shadow: 5px 2px 0px rgba(121, 255, 105, 1);
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 68px;
+}
+
+.postContainer {
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  font-family: 'Sansita', sans-serif;
+  color: #999;
+}
+
+div.picture img{
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin-top: -25px;
+}
+
+/*.details {
+  font-family: 'Lora', serif;
+}*/
+
+  h3 {
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    color: darkgreen;
+    left: 15px;
+    height: 100px;
+    position: relative;
+  }
+
+  .author {
+    font-family: 'Sansita', sans-serif;
+    color: #888;
+    left: 90px;
+    position: relative;
+  }
+
+  .date {
+    font-family: 'Sansita', sans-serif;
+    color: #888;
+    font-style: italic;
+    position:relative;
+  }
