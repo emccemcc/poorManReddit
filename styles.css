@@ -32,7 +32,7 @@ div.picture img{
   height: 75px;
   width: 75px;
   float: left;
-  margin-top: -25px;
+  margin-top: 5px;
 }
 
 /*.details {
@@ -52,7 +52,7 @@ div.picture img{
   .author {
     font-family: 'Sansita', sans-serif;
     color: #888;
-    left: 90px;
+    left: 15px;
     position: relative;
   }
 
