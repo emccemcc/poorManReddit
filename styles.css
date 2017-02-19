@@ -1,14 +1,11 @@
 .header {
   background-image: url(bkgd.jpg);
-	/*padding: 2em;*/
   margin: 0 auto;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-  /*opacity: .75;*/
-	/*max-width: 75em;*/
 }
 
 p.title {
@@ -35,18 +32,15 @@ div.picture img{
   margin-top: 5px;
 }
 
-/*.details {
-  font-family: 'Lora', serif;
-}*/
-
-  h3 {
+  .headline {
     font-family: 'Sansita', sans-serif;
     font-size: 24px;
     font-style: oblique;
     color: darkgreen;
     left: 15px;
-    height: 100px;
     position: relative;
+    display: block;
+
   }
 
   .author {
@@ -54,6 +48,8 @@ div.picture img{
     color: #888;
     left: 15px;
     position: relative;
+    display: block;
+
   }
 
   .date {
@@ -61,4 +57,8 @@ div.picture img{
     color: #888;
     font-style: italic;
     position:relative;
+  }
+
+  .info {
+    height: 100px
   }
